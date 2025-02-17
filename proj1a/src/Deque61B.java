@@ -41,6 +41,8 @@ public interface Deque61B<T> {
      */
     int size();
 
+    T getFirst();
+
     /**
      * Remove and return the element at the front of the deque, if it exists.
      *
@@ -75,4 +77,6 @@ public interface Deque61B<T> {
      * @return element at {@code index} in the deque
      */
     T getRecursive(int index);
+
+    int getSize();
 }
